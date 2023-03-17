@@ -1,0 +1,1 @@
+# Tudo dentro da pasta "pages" é uma rota com exceção dos arquivos padrão do next que começam com "_", mas se criarmos arquivos pessoais cm "_", eles ainda sim serão rotas
