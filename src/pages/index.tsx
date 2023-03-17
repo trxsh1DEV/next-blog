@@ -25,6 +25,6 @@ export const getStaticProps: GetStaticProps = async () => {
   // ex de pegando um id: https://floating-tor-18461.herokuapp.com/api/posts?populate=deep&sort=id:desc&filters[id][$in][0]=5
   return {
     props: { posts },
-    revalidate: 10, // n precisamos att o blog de x em x tempo
+    revalidate: 3600, // n precisamos att o blog de x em x tempo
   };
 };
