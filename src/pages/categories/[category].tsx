@@ -39,6 +39,5 @@ export const getStaticProps: GetStaticProps = async (ctx) => {
   // console.log(urlQuery);
   return {
     props: { posts, category: ctx.params?.category },
-    revalidate: 600,
   };
 };
