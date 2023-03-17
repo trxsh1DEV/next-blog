@@ -4,6 +4,7 @@ export const Container = styled.img`
   ${({ theme }) => css`
     max-width: 100%;
     margin-bottom: ${theme.spacings.medium};
+    border-radius: 8px;
     min-width: 250px;
   `}
 `;
